@@ -1,8 +1,8 @@
 fastapi[all]
-llama-index 
-llama-index-readers-web
-langchain
-langchain-openai
+llama-index==0.11.13 
+llama-index-readers-web==0.2.2
+langchain==0.3.0
+langchain-openai==0.2.0
 pydantic[email]
-uvicorn
-requests
+uvicorn==0.30.6
+requests==2.32.3
